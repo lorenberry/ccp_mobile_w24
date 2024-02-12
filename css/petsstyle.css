@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Brooklyn';
+    src: url('path/to/brooklyn.woff2') format('woff2'),
+         url('path/to/brooklyn.woff') format('woff');
+  
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('path/to/poppins.woff2') format('woff2'),
+         url('path/to/poppins.woff') format('woff');
+  }
+  
+  li{
+    display: inline;
+    padding: 10px;
+    margin: 65px;
+    text-align: center;
+    border: 1px solid #edbfc0;
+    border-radius: 10px;
+  }
+  
+  h1{
+    padding: 0px;
+    margin: 70px;
+    text-align: center;;
+  }
+  
+  h2{
+    padding-top: 5px;
+    text-align: left;
+    border-spacing: 10px;
+  }
+  
+  body {
+    font-family: 'Brooklyn', 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding-left: 50px;
+    
+  }
+  
+  img{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    align-items: center;
+  }
+  
+  .gallery{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  
+  .gallery img{
+    width: 100%;
+    border: 2px dashed black;
+  }
+  
